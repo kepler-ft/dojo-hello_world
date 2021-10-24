@@ -1,7 +1,7 @@
 export default function Request () {
     const ops: RequestInit = {
       method: "GET",
-      mode: 'no-cors',
+      //mode: 'no-cors',
     }
 
     return  fetch("http://0.0.0.0:8080/", ops)
